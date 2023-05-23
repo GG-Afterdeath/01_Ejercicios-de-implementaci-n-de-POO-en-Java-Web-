@@ -1,0 +1,73 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+  background-color: rgba(64, 95, 95, 0.11);
+  width: 50%;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 3px solid rgba(255, 0, 0, 0.514);
+}
+
+.botonvolver {
+  margin: 10pxs;
+  background-color: aliceblue;
+  border-color: rgb(0, 0, 0);
+  border-radius: 130px;
+  width: 400px;
+  height: 70px;
+  font-size: 45px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(224, 76, 76);
+}
+
+.container {
+  width: 40%;
+  height: 350px;
+  margin-top: 5%;
+  margin-left: 30%; 
+  background-color: rgba(64, 95, 95, 0.11);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80px;
+  border-style: dashed;
+  border-color: red;
+}
+
+.container p{
+  display: inline-block;
+  padding-bottom: 0px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 28px;
+  font-size: 150%;
+}
+
+.container button {
+  width: 200px;
+  height: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 40px;
+  border-color: #f92937;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(64, 95, 95, 0.11);
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
